@@ -1,8 +1,7 @@
 #jumbotron {
   width: 100%;
-  height: 553px;
+  height: 567px;
   background-image: url(../../assets/bgHome.png);
-  /* background-color: rgb(255, 255, 255); */
   font-family: "Amatic SC", cursive;
   display: flex;
   flex-direction: row;
@@ -14,7 +13,8 @@
   padding-left: 40px;
   color: rgb(44, 33, 33);
   display: flex;
-  justify-content: right;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
